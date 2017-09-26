@@ -1,0 +1,66 @@
+// Colors
+$color: #FF4B0A;
+
+h1, h2, h3 {
+  font-family: 'Roboto Slab', serif;
+}
+
+h1 {
+  font-size: 66px;
+  font-weight: bold;
+}
+
+h3 {
+    line-height: 44px;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  position: relative;
+  min-height: 100%;
+  background: url(../img/bg-one.png) #000000;
+  color: #FFFFFF;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: rgba(0,0,0,.01) 0 0 1px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 32px;
+}
+
+
+// Buttons
+
+.btn-group-lg>.btn, .btn-lg {
+    padding: 1rem 2rem;
+    font-size: 16px;
+    border-radius: 2.3rem;
+    letter-spacing: 3px;
+}
+
+.btn-primary {
+    background-color: $color;
+    border-color: $color;
+    text-transform: uppercase;
+    font-weight: bold;
+    &:hover {
+      background-color: darken($color, 10%);
+      border-color: darken($color, 10%);
+
+    }
+}
+
+// Hero
+
+#hero .btn-primary {
+    margin: 4vw 0;
+}
+
+#hero p {
+  margin-bottom: 11vw;
+}
+
+.text-color {
+  color: $color;
+}
