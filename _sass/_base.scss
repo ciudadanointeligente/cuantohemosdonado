@@ -14,11 +14,18 @@ h3 {
     line-height: 44px;
 }
 
+h5 {
+    font-weight: bold;
+    font-size: 12px;
+    letter-spacing: 3px;
+    margin-bottom: 2vw;
+}
+
 body {
   font-family: 'Open Sans', sans-serif;
   position: relative;
   min-height: 100%;
-  background: url(../img/bg-one.png) #000000;
+  background: url(../img/bg-one.png) #000000 no-repeat;
   color: #FFFFFF;
   -webkit-font-smoothing: antialiased;
   text-shadow: rgba(0,0,0,.01) 0 0 1px;
@@ -32,6 +39,15 @@ p {
 
 // Buttons
 
+.btn {
+  border-radius: 2.3rem;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 12px;
+  padding: 1vw 2vw;
+}
+
 .btn-group-lg>.btn, .btn-lg {
     padding: 1rem 2rem;
     font-size: 16px;
@@ -42,8 +58,6 @@ p {
 .btn-primary {
     background-color: $color;
     border-color: $color;
-    text-transform: uppercase;
-    font-weight: bold;
     &:hover {
       background-color: darken($color, 10%);
       border-color: darken($color, 10%);
@@ -51,7 +65,22 @@ p {
     }
 }
 
+.btn-secondary {
+  background: white;
+  border-color: white;
+  color: black;
+  &:hover {
+    background-color: darken(white, 10%);
+    border-color: darken(white, 10%);
+
+  }
+}
+
 // Hero
+
+#hero {
+    padding: 8vw 0;
+}
 
 #hero .btn-primary {
     margin: 4vw 0;
@@ -63,4 +92,21 @@ p {
 
 .text-color {
   color: $color;
+}
+
+.help-us {
+    padding: 4vw 0 4vw;
+}
+
+// What
+
+#what {
+  background: url(../img/bg-two.png) #000000 no-repeat;
+  padding: 8vw 0;
+}
+
+// Footer
+
+footer {
+    padding: 4vw 0;
 }
