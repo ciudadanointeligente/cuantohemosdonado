@@ -12,6 +12,7 @@ h1 {
 
 h3 {
     line-height: 44px;
+    font-size: 1.7rem;
 }
 
 h5 {
@@ -33,7 +34,8 @@ body {
 
 p {
     font-size: 16px;
-    line-height: 32px;
+    line-height: 30px;
+    margin-bottom: 1.8rem;
 }
 
 
@@ -72,7 +74,7 @@ p {
   &:hover {
     background-color: darken(white, 10%);
     border-color: darken(white, 10%);
-
+    color: black;
   }
 }
 
@@ -86,17 +88,14 @@ p {
     margin: 4vw 0;
 }
 
-#hero p {
-  margin-bottom: 11vw;
-}
-
 .text-color {
   color: $color;
 }
 
-.help-us {
-    padding: 4vw 0 4vw;
+.icons {
+  margin: 6vw 0 10vw;
 }
+
 
 // What
 
