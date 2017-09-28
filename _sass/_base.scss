@@ -18,6 +18,7 @@ h3 {
 
 h4 {
   font-size: 18px;
+  line-height: 34px;
 }
 
 h5 {
@@ -48,6 +49,12 @@ p {
   }
 }
 
+a {
+  color: $color;
+  &:hover {
+    color: lighten($color, 10%);
+  }
+}
 
 // Buttons
 
@@ -142,4 +149,5 @@ p {
 
 footer {
     padding: 4vw 0;
+    background: black;
 }
