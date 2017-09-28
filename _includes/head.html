@@ -2,17 +2,16 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta property="fb:pages" content="171895909525608" />
-  <meta property="fb:app_id" content="1505419202884086" />
   <meta property="og:title" content="{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}" />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
-  <meta property="og:image" content="{% if page.single_image[0].img %}{{ page.single_image[0].img }}{% else %}{{ '/assets/img/main.png' | prepend: site.baseurl | prepend: site.url }}{% endif %}" />
+  <meta property="og:image" content="{{ site.baseurl }}img/cuantohemosdonado.jpg" />
 
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}">
-  <meta name="twitter:description" content="{% if page.title %}{{page.content|strip_html|truncatewords:10}}{% else %}Blog de la Fundación Ciudadano Inteligente{% endif %}">
-  <meta name="twitter:image" content="{% if page.single_image[0].img %}{{page.single_image[0].img}}{% endif %}">
+  <meta name="twitter:description" content="{% if page.description %}{{page.content|strip_html|truncatewords:10}}{% else %}{% endif %}">
+  <meta name="twitter:image" content="{{ site.baseurl }}img/cuantohemosdonado.jpg">
+  <meta name="twitter:domain" content="{{ site.baseurl }}">
 
   <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">

@@ -18,6 +18,7 @@ email: contacto@cuantohemosdonado.mx
 description: Luego de la catástrofe se viene el tiempo de la reconstrucción.... y las cuentas. ¿Cuánto va a costar? ¿Cuánto tiene disponible el gobierno de presupuesto público (nuestros impuestos)? ¿Cuánto está poniendo la sociedad por medio de su tiempo y sus aportes?
 baseurl: "https://ciudadanointeligente.org/cuantohemosdonado/" # the subpath of your site, e.g. /blog
 url: "https://ciudadanointeligente.org/cuantohemosdonado/" # the base hostname & protocol for your site, e.g. http://example.com
+tweet: Yo ya doné. Ahora exijo soluciones para los damnificados y prevención para el futuro. Conoce más en
 
 # Build settings
 markdown: kramdown
