@@ -14,6 +14,7 @@ h1 {
 h3 {
     line-height: 44px;
     font-size: 1.7rem;
+    margin-bottom: 33px;
 }
 
 h4 {
@@ -56,6 +57,10 @@ a {
   }
 }
 
+.inside-section {
+  padding: 8vw 0;  
+}
+
 // Buttons
 
 .btn {
@@ -74,7 +79,7 @@ a {
 }
 
 .btn-group-lg>.btn, .btn-lg {
-    padding: 1rem 2rem;
+    padding: 1.5rem 2.5rem;
     font-size: 16px;
     border-radius: 2.3rem;
     letter-spacing: 3px;
@@ -128,7 +133,7 @@ a {
     padding: 8vw 0;
 }
 
-#hero .btn-primary {
+.btn-big {
     margin: 4vw 0;
 }
 
