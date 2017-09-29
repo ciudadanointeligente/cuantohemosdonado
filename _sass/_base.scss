@@ -1,6 +1,7 @@
 // Colors
 $color: #FF4B0A;
-$blue: #4ABBE2;
+$lightblue: #4ABBE2;
+$blue: #225da7;
 
 h1, h2, h3, h4 {
   font-family: 'Roboto Slab', serif;
@@ -58,7 +59,7 @@ a {
 }
 
 .inside-section {
-  padding: 8vw 0;  
+  padding: 8vw 0;
 }
 
 // Buttons
@@ -106,7 +107,19 @@ a {
 }
 
 .btn-default {
+    background: $lightblue;
+    color: white;
+    padding: 8px 20px;
+    &:hover {
+      background-color: darken($lightblue, 10%);
+      border-color: darken($lightblue, 10%);
+      color: white;
+  }
+}
+
+.btn-success {
     background: $blue;
+    border-color: $blue;
     color: white;
     padding: 8px 20px;
     &:hover {
