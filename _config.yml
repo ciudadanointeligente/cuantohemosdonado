@@ -36,3 +36,6 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+prose:
+  siteurl: 'http://cuantohemosdonado.mx/'
